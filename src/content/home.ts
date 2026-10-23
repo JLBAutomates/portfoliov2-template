@@ -22,10 +22,10 @@ import {
  * (see the comment on `.hero__title` there).
  */
 export const homeHero = {
-  headlineThin: 'Your headline.',
-  headlineBold: 'Make it yours.',
-  subhead: 'PLACEHOLDER - tell me what to put here: one sentence on who you help and the result you get them.',
-  cta: { label: 'Get in touch', to: '/#contact' },
+  headlineThin: 'Your GoHighLevel Expert for Funnels, CRM & Business Automation.',
+  headlineBold: 'Less Manual Work. More Leads. Smarter Business Systems.',
+  subhead: 'I help business leaders drive measurable growth by optimizing systems, processes, and strategy.',
+  cta: { label: 'Let us Work Together', to: '/#contact' },
 }
 
 /**
