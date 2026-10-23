@@ -12,10 +12,10 @@ export const site = {
   /** Your logo mark, one file per theme (`light` = for light backgrounds). The 96px copies are the
    *  sidebar header (shown at 32-36px); the full ones are the Work logo faces. */
   logo: {
-    light: '/images/brand/Light version@2x.png',
-    dark: '/images/brand/Dark version@2x.png',
-    headerLight: '/images/brand/mark-96.webp',
-    headerDark: '/images/brand/mark-light-96.webp',
+    light: '/images/brand/Dark version@2x.png',
+    dark: '/images/brand/Light version@2x.png',
+    headerLight: '/images/brand/Dark version@2x.png',
+    headerDark: '/images/brand/Light version@2x.png',
   },
   /** The live address, no trailing slash. Canonical URLs, the sitemap and the JSON-LD use it. */
   url: 'https://portfolio.jlbeltran.com/jlbautomates',
