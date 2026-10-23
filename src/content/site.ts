@@ -29,26 +29,38 @@ export const site = {
   /** Your clock, shown live at the top of the sidebar. Any IANA zone, e.g. 'America/New_York'. */
   timeZone: 'PST',
   timePlace: 'in Your City',
-  avatar: { src: '/images/profile/avatar.webp', alt: 'Your Name', width: 400, height: 400 },
+  avatar: { src: '/images/profile/all smiles_no bg.png', alt: 'Jonel Beltran', width: 400, height: 400 },
   /** The sidebar picture (112px, 44px on the rail). */
-  avatarSmall: '/images/profile/avatar-224.webp',
+  avatarSmall: '/images/profile/focused_no bg.png',
 } as const
 
 /** A credential shown in About and the sidebar check. Delete the `image` to show it without a badge. */
 export const certification: Credential = {
-  title: 'Your Certification',
-  detail: 'Credential ID #0000',
-  issuer: 'Issuing Organization',
+  title: 'Funnel Building Expert',
+  detail: 'Credential ID #10-260',
+  issuer: 'GHL Champ',
   href: '#',
-  image: { src: '/images/badges/badge.webp', alt: 'Your certification badge', width: 96, height: 96 },
+  image: { src: '/images/badges/Funnel Building Expert.jpeg', alt: 'Your certification badge', width: 96, height: 96 },
+
+  title: 'Workflow & Automation Expert',
+  detail: 'Credential ID #10-138',
+  issuer: 'GHL Champ',
+  href: '#',
+  image: { src: '/images/badges/Workflow & Automation Workflow Expert.jpeg', alt: 'Your certification badge', width: 96, height: 96 },
+
+  title: 'Course Creator Expert',
+  detail: 'Credential ID #10-48',
+  issuer: 'GHL Champ',
+  href: '#',
+  image: { src: '/images/badges/Course Creator Expert.jpeg', alt: 'Your certification badge', width: 96, height: 96 },
 }
 
 /** Up to five fit the sidebar header. `icon` picks the glyph in components/brand/SocialIcon.tsx. */
 export const socials: SocialLink[] = [
-  { label: 'LinkedIn', href: '#', external: true, icon: 'linkedin' },
-  { label: 'GitHub', href: '#', external: true, icon: 'github' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/jonel-beltran/', external: true, icon: 'linkedin' },
+  { label: 'GitHub', href: 'https://github.com/JLBAutomates', external: true, icon: 'github' },
   { label: 'X', href: '#', external: true, icon: 'x' },
-  { label: 'Facebook', href: '#', external: true, icon: 'facebook' },
+  { label: 'Facebook', href: 'https://www.facebook.com/jonel.beltran', external: true, icon: 'facebook' },
   { label: 'Discord', href: '#', external: true, icon: 'discord' },
 ]
 
