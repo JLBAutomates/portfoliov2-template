@@ -5,29 +5,29 @@ import type { Credential, SocialLink } from './schema'
  * these values, so changing them here changes them everywhere.
  */
 export const site = {
-  name: 'Your Name',
-  brand: 'Your Brand',
+  name: 'Jonel Beltran',
+  brand: 'JLB | Automates',
   /** The brand name as the sidebar logo shows it: the second part takes the accent color. */
   brandParts: ['Your', 'Brand'],
   /** Your logo mark, one file per theme (`light` = for light backgrounds). The 96px copies are the
    *  sidebar header (shown at 32-36px); the full ones are the Work logo faces. */
   logo: {
-    light: '/images/brand/mark.webp',
+    light: '/images/brand/Dark version@2x.png',
     dark: '/images/brand/mark-light.webp',
     headerLight: '/images/brand/mark-96.webp',
     headerDark: '/images/brand/mark-light-96.webp',
   },
   /** The live address, no trailing slash. Canonical URLs, the sitemap and the JSON-LD use it. */
-  url: 'https://example.com',
-  role: 'Your Role, Your Title',
-  email: 'you@example.com',
+  url: 'https://portfolio.jlbeltran.com/jlbautomates',
+  role: 'Automation Specialist, GL Expert',
+  email: 'jonel.beltran14@gmail.com',
   emailSubject: 'Project inquiry',
   replyPromise: 'Reply within one business day.',
-  location: 'Your City, GMT+0',
+  location: 'Marikina City, GMT+63',
   /** Two-letter country code (ISO 3166) for the Person JSON-LD address. */
-  countryCode: 'US',
+  countryCode: 'PH',
   /** Your clock, shown live at the top of the sidebar. Any IANA zone, e.g. 'America/New_York'. */
-  timeZone: 'UTC',
+  timeZone: 'PST',
   timePlace: 'in Your City',
   avatar: { src: '/images/profile/avatar.webp', alt: 'Your Name', width: 400, height: 400 },
   /** The sidebar picture (112px, 44px on the rail). */
